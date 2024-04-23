@@ -1,0 +1,29 @@
+.welcome {
+  background-color: #f4f4f4;
+  width: 300px;
+  margin: 18px auto;
+
+  padding: 8px 39px;
+  padding-right: 5px;
+  border: 1px solid #7c7777;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: left;
+  height: 170vh;
+}
+
+.button1 {
+  background-color: #712cf9 !important;
+  width: 83%;
+  margin-bottom: 10px;
+  border: none !important;
+}
+
+.button2 {
+  background-color: #999 !important;
+  border: none !important;
+  width: 83%;
+  color: black !important;
+}

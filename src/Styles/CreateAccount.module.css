@@ -1,0 +1,166 @@
+.container {
+  background-color: #f4f4f4;
+  width: 300px;
+  margin: 18px auto;
+  padding: 20px;
+  border: 1px solid #7c7777;
+  white-space: wrap;
+}
+
+.spam {
+  display: block;
+  margin: 10px;
+}
+
+.labelContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.fullName {
+  display: block;
+  margin-bottom: 5px;
+  position: relative;
+  top: 16px;
+  left: 8px;
+  background: #f4f4f4;
+  width: 82px;
+  color: #712cf9;
+  white-space: nowrap;
+}
+
+.asterisk {
+  margin-left: 3px;
+  right: 1px;
+  font-size: 6px;
+  color: red;
+  position: relative;
+  bottom: 7px;
+}
+
+.inputFullName {
+  width: 101%;
+  padding: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #f4f4f4;
+}
+.phoneNumber {
+  display: block;
+  margin-bottom: 5px;
+  position: relative;
+  top: 17px;
+  left: 8px;
+  background: #f4f4f4;
+  width: 115px;
+  color: #712cf9;
+  white-space: nowrap;
+}
+
+.inputPhoneNumber {
+  width: 101%;
+  padding: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #f4f4f4;
+}
+
+.emailAddress {
+  display: block;
+  margin-bottom: 5px;
+  position: relative;
+  top: 17px;
+  left: 8px;
+  background: #f4f4f4;
+  width: 111px;
+  color: #712cf9;
+  white-space: nowrap;
+}
+
+.inputEmailAddress {
+  width: 101%;
+  padding: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #f4f4f4;
+}
+.password {
+  display: block;
+  margin-bottom: 5px;
+  position: relative;
+  top: 17px;
+  left: 8px;
+  background: #f4f4f4;
+  width: 80px;
+  color: #712cf9;
+  white-space: nowrap;
+}
+
+.inputPassword {
+  width: 101%;
+  padding: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #f4f4f4;
+}
+.companyName {
+  display: block;
+  margin-bottom: 5px;
+  position: relative;
+  top: 17px;
+  left: 8px;
+  background: #f4f4f4;
+  width: 114px;
+  color: #712cf9;
+  white-space: nowrap;
+}
+
+.inputCompanyName {
+  width: 101%;
+  padding: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #f4f4f4;
+}
+
+.radioContainer {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.radio {
+  padding: 10px;
+  margin-bottom: -5px;
+}
+
+.option {
+  margin-left: 5px;
+  margin-right: 50px;
+}
+
+input[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #999;
+  outline: none;
+  cursor: pointer;
+}
+
+input[type="radio"]:checked {
+  background-color: #712cf9;
+}
+
+label {
+  margin-left: 5px;
+}
+
+.button1 {
+  margin-top: 200px;
+  width: 108%;
+  background-color: #712cf9 !important;
+  border: none !important;
+}

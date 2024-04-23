@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  justify-content: center;
+}
+
+.container {
+  background-color: #f4f4f4;
+  width: 300px;
+  margin: 18px auto;
+  padding: 20px;
+  border: 1px solid #7c7777;
+  height: 1000px;
+}
+
+.paragraph {
+  line-height: 23.5px;
+  margin-bottom: 0rem;
+}
+
+.h2 {
+  margin-bottom: 15px;
+}
+
+.forms {
+  display: flex;
+  flex-direction: column;
+  line-height: 7px;
+}
+
+.form-group {
+  margin-bottom: 5px;
+  background-color: #f4f4f4;
+}
+
+.username {
+  display: block;
+  margin-bottom: 5px;
+  position: relative;
+  top: 17px;
+  left: 8px;
+  background: #f4f4f4;
+  width: 74px;
+  color: #712cf9;
+}
+.password {
+  display: block;
+  margin-bottom: 5px;
+  position: relative;
+  top: 17px;
+  left: 8px;
+  background: #f4f4f4;
+  width: 69px;
+  color: #712cf9;
+}
+
+.inputUsername {
+  width: 93%;
+  padding: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #f4f4f4;
+}
+
+.inputPassword[type="password"] {
+  width: 93%;
+  padding: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #f4f4f4;
+}
+
+.button {
+  width: 100%;
+  padding: 10px;
+  color: white;
+  background-color: #d8cbcb;
+  border: none !important;
+  margin-top: 10px;
+}
+
+.placeholder {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  pointer-events: none;
+  color: #999;
+}
